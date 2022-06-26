@@ -11,7 +11,9 @@ describe('ForbiddenComponent', () => {
       declarations: [ ForbiddenComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(ForbiddenComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
